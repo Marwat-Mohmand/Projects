@@ -1,0 +1,243 @@
+body{
+    background-color: rgb(5, 4, 4);
+ 
+ }
+
+nav{
+    display: flex;
+}
+
+
+.link{
+    border: 1px solid;
+        padding: 5px;
+        gap: 1.6rem;
+        
+        display: flex;
+        text-decoration: none;
+        color: white;
+        width: 32%;
+        padding-left: 10px;
+        text-align: center;
+        justify-content: center;
+        background: transparent;
+        align-items: center;
+        backdrop-filter: blur(20px);
+        border-color: rgb(97, 93, 87);
+        border-radius: 10px;
+    }
+    .link li{
+        list-style: none;
+        padding: 10px;
+       font-size: 1.5rem;
+    }
+    .link li a{
+        color: aliceblue;
+        text-decoration: none;
+    }
+    .link a:hover{
+        color: yellow;
+        transition: 0.3s;
+        
+    }
+   
+    .menu{
+        background-color: black;
+        color: yellow;
+        padding: 0;
+        border-radius: 15px;
+        width: 10%;
+        border-color: yellow;
+        font-size: 1.5rem;
+        float: right;
+        position: relative;
+        left: 40%;
+    }
+    .menu1{
+        position: relative;
+        left: 45%;
+        background-color: black;
+        border: none;
+        cursor: pointer;
+        /* display: none; */
+    }
+  
+    .vector {
+        padding-left: 10px;
+        height: 10px;
+    }
+    .logo a:hover{
+        filter: drop-shadow(30px 30px 40px yellow);
+        color:yellow;
+        transition: box-shadow 0.3s; }
+
+        .menu:hover{
+            background-color: yellow;
+        
+            box-shadow: 0 4px 20px rgba(255, 255, 0, 0.781);
+            color: black;
+            transition: box-shadow 0.3s;}
+          
+            .flip-card {
+
+                background-color: transparent;
+            
+                width: 300px; 
+                height: 200px; 
+            
+                perspective: 1000px; 
+            
+            }
+            
+            .flip-card-inner {
+            
+                position: relative;
+            
+                width: 100%;
+            
+                height: 100%;
+            
+                transition: transform 0.6s; 
+            
+                transform-style: preserve-3d; 
+            
+            }
+            .flip-card img{
+                width: 50%;
+            }
+            
+            .flip-card:hover .flip-card-inner {
+            
+                transform: rotateY(180deg); 
+        
+            }
+            .flip-card-inner img{
+                width: 50%;
+            }
+            
+            .flip-card-front, .flip-card-back {
+            
+                position: absolute;
+            
+                width: 100%;
+            
+                height: 100%;
+            
+                backface-visibility: hidden; 
+            }
+            .fliping-img{
+                height: 84px;
+            }
+           
+          
+            
+            .flip-card-back {
+            
+            
+            
+                transform: rotateY(180deg);}
+
+                .marquee {
+
+                    display: flex; /* Use flexbox to lay out images in a row */
+                
+                    animation: marquee 15s linear infinite; /* Animate the marquee */
+                
+                }
+                
+                .marquee__item {
+                
+                    width: 200px; /* Width of each image */
+                
+                    height: 200px; /* Height of each image */
+                
+                    margin-right: 20px; /* Space between images */
+                
+                }
+                
+              
+            @keyframes marquee { 
+                from { 
+                  transform: translateX(0); 
+                } 
+                to { 
+                  transform: translateX(-800px); 
+                } 
+              } 
+               
+              @keyframes rotate { 
+                from { 
+                  transform: rotate(0deg); 
+                } 
+                to { 
+                  transform: rotate(360deg); 
+                } }
+
+                marquee{
+                    color: #000;
+
+                    /* border: 1px solid yellow; */
+                    margin-top: 2%;
+                    padding: 15px;
+                    /* background-color: #cfcf20; */
+                    /* rotate: -3deg; */
+                    text-align: center;
+                    font-size: 2rem;
+                }
+                /* .marquee__item{
+                    width: 100px;
+                } */
+                .footer1 {
+                    margin-top: 4%;
+                      padding: 20px;
+                      display: flex;
+                      justify-content: space-between;
+                      align-items: center;
+                      border-top: 1px solid #333;
+                  }
+                  .left {
+                      display: flex;
+                      align-items: center;
+                  }
+                  .logo {
+                      margin-right: 10px;
+                  }
+                  .right a {
+                      color: rgba(255, 255, 255, 0.7);
+                      margin-right: 60px;
+                      text-decoration: none;
+                  }
+                  .icons img {
+                      width: 24px;
+                      height: 24px;
+                      margin-left: 10px;
+                  }
+                  .icons {
+                     /* margin: auto; */
+                     display: flex;
+                     /* justify-content: space-between; */
+                     justify-content: end;
+                  
+                  }
+                  .icons a{
+                      margin-right: 10px;
+                  }
+                  .brand:hover{
+                     box-shadow: #c7e600;
+                      color:yellow;
+                      transition: box-shadow 0.3s; }
+                  
+                  .quta{
+                      color: bisque;
+                      position: relative;
+                      right: 94%;
+                  }
+                  .left a:hover{
+                      filter: drop-shadow(2px 2px 40px yellow);
+                      color:yellow;
+                      transition: box-shadow 0.3s; }
+                      .right a:hover{
+                          color: aliceblue;
+                      transition: 0.3s;}
+
+                     
