@@ -21,10 +21,10 @@
 [![Your GitHub Stats](https://github.com/Marwat-Mohmand)  
 
 ### **📈 Top Languages**  
-feel free i have that much ability to speak four languages.
+feel free i have that much ability to speake four languages.
 1-English
 2-Persion
 3-Russian
 4-Pashto
 
-⭐ **Fun Fact:** [Something interesting about you, e.g., "I automate my home with Python!"]  
+⭐ **Fun Fact:** ["I automate my home with Python!"]  
