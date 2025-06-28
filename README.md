@@ -4,7 +4,7 @@
 
 🌍 **Based in:** [Russia, Mosocw]  
 💼 **Looking for:** Freelance Projects | Full-Time Roles | Collaborations  
-📫 **How to reach me:** [Your Email][marwatrasa@gmail.com}[Marwatmohmand53@gmail.com} | [WhatsApp](https://wa.me/message/N5XLAFRXOQJYF1) | [Instagram](https://www.instagram.com/marwatdev/?utm_source=qr&r=nametag)  
+📫 **How to reach me:** [Email][marwatrasa@gmail.com}[Marwatmohmand53@gmail.com} | [WhatsApp](https://wa.me/message/N5XLAFRXOQJYF1) | [Instagram](https://www.instagram.com/marwatdev/?utm_source=qr&r=nametag)  
 
 ### **🛠️ Tech Stack**  
 - **Frontend:** Html, Tailwind CSS, JavaScript/TypeScript  
