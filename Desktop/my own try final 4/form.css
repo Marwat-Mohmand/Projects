@@ -1,0 +1,462 @@
+nav{
+    display: flex;
+}
+body{
+    background-color: black;
+}
+
+dt::first-letter{
+    font-size: xx-large;
+}
+
+dd::after{
+    content: "🛈";
+}
+.right a:visited{
+    color: #007BFF
+}
+.right a:focus{
+    color: #007BFF;
+}
+
+
+.link{
+    border: 1px solid;
+        padding: 5px;
+        gap: 1.6rem;
+        display: flex;
+        text-decoration: none;
+        color: white;
+        width: 32%;
+        padding-left: 10px;
+        text-align: center;
+        justify-content: center;
+        background: transparent;
+        align-items: center;
+        backdrop-filter: blur(20px);
+        border-color: rgb(97, 93, 87);
+        border-radius: 10px;
+    }
+    .link li{
+        list-style: none;
+        padding: 10px;
+       font-size: 1.5rem;
+    }
+    .link li a{
+        color: aliceblue;
+        text-decoration: none;
+    }
+    .link a:hover{
+        color: yellow;
+        transition: 0.3s;
+        
+    }
+   
+    .menu{
+        background-color: black;
+        color: yellow;
+        padding: 0;
+        border-radius: 15px;
+        width: 10%;
+        border-color: yellow;
+        font-size: 1.5rem;
+        float: right;
+        position: relative;
+        left: 40%;
+    }
+    .menu1{
+        position: relative;
+        left: 45%;
+        background-color: black;
+        border: none;
+        cursor: pointer;
+        /* display: none; */
+    }
+   
+    .vector {
+        padding-left: 10px;
+        height: 10px;
+    }
+    .logo a:hover{
+        filter: drop-shadow(30px 30px 40px yellow);
+        color:yellow;
+        transition: box-shadow 0.3s; }
+
+        .menu:hover{
+            background-color: yellow;
+        
+            box-shadow: 0 4px 20px rgba(255, 255, 0, 0.781);
+            color: black;
+            transition: box-shadow 0.3s;}
+
+
+            form {
+                max-width: 600px;
+                width: 100%;
+                padding: 20px;
+                
+               margin: auto;
+                border-radius: 8px;
+                margin-top: 2%;
+            }
+            form p{
+                color: white;
+                font-size: 1.3rem;
+            }
+           
+            label {
+                display: block;
+                margin-bottom: 5px;
+                font-weight: bold;
+                color: white;
+                font-size: 1rem;
+               
+            }
+
+            .submit{
+              color: aqua;
+               font-size: 1.7rem;
+               text-align: center
+            }
+            
+            input[type="text"], input[type="email"], textarea {
+                width: 90%;
+                padding: 15px;
+                margin-bottom: 20px;
+                border: 1px solid #e6cece;
+                border-radius: 4px;
+                background-color: black;
+                color: white;
+                border-radius: 10px;
+            
+            }
+            input[type="password"]
+            {
+                width: 90%;
+                padding: 15px;
+                margin-bottom: 20px;
+                border: 1px solid #e6cece;
+                border-radius: 4px;
+                background-color: black;
+                color: white;
+                border-radius: 10px;
+
+            }
+            .radio{
+                color: chocolate;
+                font-size: 1.5rem;
+                padding-top: 30px;
+            }
+            .red
+            {
+                padding-top: 10px;
+            }
+           input[type="button"]{
+           
+            width: 90%;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid #e6cece;
+            border-radius: 4px;
+            background-color: yellow;
+            color: black;
+            border-radius: 10px;
+            font-size: 1.5rem;
+            margin-top: 5%;
+            
+           }
+
+            input[type="date"]{
+
+                width: 90%;
+                padding: 15px;
+                margin-bottom: 20px;
+                border: 1px solid #e6cece;
+                border-radius: 4px;
+                background-color: black;
+                color: white;
+                border-radius: 10px;
+
+
+            }
+            input[type="select"]{
+
+                width: 100%;
+                padding: 15px;
+                margin-bottom: 20px;
+                border: 1px solid #e6cece;
+                border-radius: 4px;
+                background-color: black;
+                color: white;
+                border-radius: 10px;
+            }
+            select{
+                
+
+                padding: 25px;
+                border-radius: 10px;
+             background-color:black;
+             color: #fff;
+             font-size: 1.2rem;
+            
+             }
+             input[type="radio"]{
+                display: flex;
+            
+            
+             }
+             
+        .submit-button {
+            background-color: #28a745; 
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+            margin-left: 40%
+        }
+
+        .submit-button:hover {
+            background-color: #218838; 
+
+        }
+        .reset-button {
+            background-color: #dc3545; 
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        .reset-button:hover {
+            background-color: #c82333; 
+        }
+
+            input::placeholder{
+               color:rgb(199, 178, 178);
+            }
+            textarea::placeholder{
+                color:rgb(199, 178, 178);
+            }
+            input:hover{
+                background-color: rgba(68, 65, 20, 0.938);
+                transition: 1s;
+            }
+            .lastbutton button  {
+                width:633px;
+                padding: 15px;
+                border: none;
+                
+                border-radius: 10px;
+                background-color: #e6ff00;
+                color: black;
+                font-size: 16px;
+                cursor: pointer; 
+            }
+            button:hover {
+                background-color: #c7e600;
+            }
+            input[type="number"]
+            {
+                width: 90%;
+                padding: 15px;
+                margin-bottom: 20px;
+                border: 1px solid #e6cece;
+                border-radius: 4px;
+                background-color: black;
+                color: white;
+                border-radius: 10px;
+
+            }
+           legend{
+            color: white;
+            font-size: 2.5rem;
+           }
+           .footer1 {
+            margin-top: 4%;
+              padding: 20px;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              border-top: 1px solid #333;
+          }
+          .right a:hover{
+            color: aliceblue;
+        transition: 0.3s;}
+          .left {
+              display: flex;
+              align-items: center;
+          }
+          .logo {
+              margin-right: 10px;
+          }
+          .right a {
+              color: rgba(255, 255, 255, 0.7);
+              margin-right: 60px;
+              text-decoration: none;
+          }
+          .brand:hover{
+            transform: rotate(30deg) scale(1.1) skew(10deg, 10deg);
+
+          }
+
+
+          .icons img {
+              width: 24px;
+              height: 24px;
+              margin-left: 10px;
+          }
+          .icons {
+            
+             display: flex;
+             
+             justify-content: end;
+          
+          }
+          .icons a{
+              margin-right: 10px;
+          }
+          .quta{
+              color: bisque;
+              position: relative;
+              right: 94%;
+          }
+          dl{
+            color: white;
+          }
+       
+
+          .custom-checkbox {
+            display: none;
+        }
+
+       
+        .custom-label {
+            position: relative;
+            padding-left: 25px;
+            cursor: pointer;
+            user-select: none;
+        }
+
+       
+        .custom-label:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 20px;
+            height: 20px;
+            border: 2px solid #007BFF; 
+            border-radius: 4px; 
+            background-color: white;
+        }
+
+        
+        .custom-checkbox:checked + .custom-label:before {
+            content: "✔"; 
+            color: white; 
+            background-color: #007BFF; 
+            text-align: center;
+            line-height: 20px; 
+        }
+
+        .custom-checkbox:checked + .custom-label{
+            text-decoration: line-through;
+        }
+
+
+        .custom-label:hover:before {
+            border-color: #0056b3; 
+        }
+
+        .container {
+
+            position: relative;
+          
+            padding-left: 35px;
+          
+            cursor: pointer;
+          
+            font-size: 20px;
+          
+            user-select: none;
+          
+          }
+          
+          .container input {
+          
+            position: absolute;
+          
+            opacity: 0; 
+          
+          }
+          
+          .checkmark {
+          
+            position: absolute;
+          
+            top: 0;
+          
+            left: 0;
+          
+            height: 25px;
+          
+            width: 25px;
+          
+            background-color: #eee;
+          
+          }
+          
+          .container:hover input ~ .checkmark {
+          
+            background-color: #ccc;
+          
+          }
+          
+          .container input:checked ~ .checkmark {
+          
+            background-color: #2196F3;
+          
+          }
+          
+          .checkmark:after {
+          
+            content: "";
+          
+            position: absolute;
+          
+            display: none;
+          
+          }
+          
+          .container input:checked ~ .checkmark:after {
+          
+            display: block;
+            
+          
+          }
+          
+          .checkmark:after {
+          
+            left: 10px;
+          
+            top: 5px;
+          
+            width: 5px;
+          
+            height: 10px;
+          
+            border: solid white;
+          
+            border-width: 0 3px 3px 0;
+          
+            transform: rotate(45deg);
+            
+          
+          }          
