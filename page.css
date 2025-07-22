@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.split{
+    width: 50%;
+    height: 100%;
+    top: 0;
+    overflow: hidden;
+}
+.split.left{
+    position: absolute;
+    left: 0;
+    background-color: pink;
+    background-image: url("https://alephksa.com/cdn/shop/files/iPhone_16_Pro_Max_White_Titanium_PDP_Image_Position_1__en-ME_1b7c0966-4747-4174-8e96-47b5226d7e4f.jpg?v=1727250217&width=823");
+    background-size: cover;
+   
+
+
+}
+.split.right{
+    position: absolute;
+    right: 0;
+  
+    background-image: url("https://images.unsplash.com/photo-1597762470488-3877b1f538c6?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: contain;
+    background-color: lightblue;
+    background-repeat:no-repeat;
+    
+}
+h1{
+    font-size: 100px;
+    color: aliceblue;
+    backdrop-filter: brightness(.5);
+    letter-spacing: 4px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding: 20px 40px ;
+    font-size: 25px;
+    border: 4px solid;
+    cursor: pointer;
+    transition: 1s background-color;
+    white-space: nowrap;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+.active-left .left{
+    width: 75%;
+}
+.active-left .right{
+    width: 25%;
+}
+.active-right .left{
+    width: 25%;
+}
+.active-right .right{
+    width: 75%;
+}
+.left, .right{
+    transition: width 2s ease-in-out;
+}
